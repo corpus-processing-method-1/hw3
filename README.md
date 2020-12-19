@@ -15,7 +15,7 @@
     - 請在 `README.md` (這份檔案，請刪除目前的內容) 內簡要說明：
         1. 進行了哪些分析 (Collexeme Analysis, Distinctive Collexeme Analysis, Covarying Collexeme Analysis)
         2. Construction 的定義 (i.e., 如何透過程式找出這種 construction)
-        3. 分析結果檔案名稱：表格資料或 Jupyter Notebook 等，記錄分析的**數值資訊** (e.g., 至少需有 attraction 與 repulsion 最強的前十名排序與分數)。如果使用 `coll.analysis.r`，可直接使用此表格
+        3. 分析結果檔案名稱：表格資料或 Jupyter Notebook 等，記錄分析的**數值資訊** (e.g., 至少需有 attraction 與 repulsion 最強的前十名排序與分數)。如果使用 `coll.analysis.r`，可直接使用表格
 
 
 ## 小提示
