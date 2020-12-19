@@ -24,7 +24,7 @@
 1. 師大陳正賢老師有線上教科書示範如何 R 進行 Collexeme Analysis：<https://alvinntnu.github.io/NTNU_ENC2036_LECTURES/constructions-and-idioms.html>
 1. 關於 Python 的 Distinctive Collexeme Analysis 與 Covarying Collexeme Analysis 的實作可以參考 <https://github.com/lopentu/hocor2020-GramColl> (品質不保證)
 1. 目前各位遇到最大的問題可能不是 collostructional analysis 本身而是如何透過程式去找出自己想要的 construction:
-    - 最簡單 (完全自行手作) 的方式是將爬回來的文章進行斷詞與 PoS tag 後，再將結果合併當成字串處理，如此便可以透過 regular expression 去找出想要的 construction。例如，將文章處理成下方的字串格式(`<詞彙>_<PoS> <詞彙>_<PoS> ...`)之後，便可透過 `把_P \S+_N[a-zA-Z]* \S+_V[a-zA-Z]*`(RegEx) 去抓出所有的把字句：
+    - 最粗製的方式是將爬回來的文章進行斷詞與 PoS tag 後，再將結果合併當成字串處理，如此便可以透過 regular expression 去找出想要的 construction。例如，將文章處理成下方的字串格式(`<詞彙>_<PoS> <詞彙>_<PoS> ...`)之後，便可透過 `把_P \S+_N[a-zA-Z]* \S+_V[a-zA-Z]*`(RegEx) 去抓出所有的把字句：
       ```
       你_Nh 要_D 把_P 重心_Na 置於_VC 家人_Na 身_Na 上_Ncd ，_COMMACATEGORY
       而_Cbb 不_D 是_SHI 把_P 重心_Na 放_VC 在_P 工作_VA 。_PERIODCATEGORY
