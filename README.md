@@ -1,9 +1,12 @@
 # hw3: Collostructional analysis
 
+[作業領取連結](https://classroom.github.com/a/ByIsoop2)
+
 
 ## 作業要求
 
-從 PTT 自行爬取文章、清理後，對文本進行 collostructional analysis (Collexeme Analysis, Distinctive Collexeme Analysis, Covarying Collexeme Analysis 三擇一)
+1. 從 PTT 自行爬取文章、清理後，對文本進行 collostructional analysis (Collexeme Analysis, Distinctive Collexeme Analysis, Covarying Collexeme Analysis 三擇一)
+2. 繳交期限： **2021-01-17**
 
 
 ## 繳交內容
