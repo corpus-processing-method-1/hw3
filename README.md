@@ -10,7 +10,7 @@
 
 1. 資料前處理 (資料爬取與清理、斷詞與 PoS tag): `preprocessing.R` (or `.py`)
 1. Collostructional analysis: `(distinctive/covarying_)collexeme_analysis.R` (or `.py`)
-    - 如果使用 Gries 的 `coll.analysis.r` 進行分析，程式碼內需包含將資料處理成 `coll.analysis.r` 所要求的輸入格式，並且在程式碼註解內記錄下自己使用的分析選項 (執行 `coll.analysis.r` 時，它要你選擇與輸入的那些資訊)
+    - 如果使用 Gries 的 `coll.analysis.r` 進行分析，檔案內需包含將資料處理成 `coll.analysis.r` 所要求之輸入格式的程式碼，並且在程式註解內記錄下自己使用的分析選項 (執行 `coll.analysis.r` 時，它要你選擇與輸入的那些資訊)
 1. 分析結果
     - 請在 `README.md` (這份檔案，請刪除目前的內容) 內簡要說明：
         1. 進行了哪些分析 (Collexeme Analysis, Distinctive Collexeme Analysis, Covarying Collexeme Analysis)
