@@ -34,4 +34,4 @@
       整_Neqa 天_Nf 把_P 心思_Na 放_VC 在_P 工作_Na 卻_D 不管_Cbb 家人_Na 實在_D 很_Dfa 糟_VH
       應該_D 多_D 把_P 時間_Na 花_VC 在_P 有_V_2 意義_Na 的_DE 事情_Na 上_Ng
       ```
-    - 比較精準的方式是使用[漢唐與琼玉介紹的方式](https://docs.google.com/presentation/d/1c_xfgZI5YUCJSanj7l_E9O_0MYGOlZD1vqFSuv6Rp0I)，以比較複雜的資料結構去表徵語料(建立微語料庫)，再透過程式實作簡單的語料查詢功能
+    - 比較精準的方式是使用[漢唐與琼玉介紹的方式](https://docs.google.com/presentation/d/1c_xfgZI5YUCJSanj7l_E9O_0MYGOlZD1vqFSuv6Rp0I)，以比較複雜的資料結構去表徵語料(建立微語料庫)，再透過程式實作簡單的語料查詢功能。我最近正在將這些功能包成一個 Python 套件 ([`liao961120/concordancer`](https://github.com/liao961120/concordancer))，基本上已可使用，但說明文件不齊，有興趣的同學可以嘗試使用看看
